@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Web capture_31-8-2022_144033_127.0.0.1.jpeg)
+![My solution](images/Web capture_31-8-2022_144033_127.0.0.1.jpeg)
 
 ### Links
 
