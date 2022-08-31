@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.balance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vh;
+    height: 12vh;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    background-color:  hsl(10, 79%, 65%);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+h3{
+    font-weight: lighter;
+}
+
+.my-balance{
+    text-align: left;
+    
+}
+
+.graph-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 60vh;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    color: hsl(25, 47%, 15%);
+}
+
+.main-part{
+    flex: 70;
+    display: flex;
+    flex-direction: column;
+    
+        
+
+}
+
+.heading{
+    margin: 2%;
+}
+
+.down-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    flex: 30;
+    border-top: 2px solid hsl(27, 66%, 92%);
+}
+
+.graphs-area{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: auto;
+}
+.graphs-area>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:center;
+  width: 20%;  
+  margin: 2%;
+  text-align: center;
+  color: hsl(28, 10%, 53%);
+  font-size: small;
+  
+  
+}
+
+.total, .diff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diff{
+    align-items: flex-end;
+}
+
+.total{
+    align-items: flex-start;
+}
+
+.l-brown{
+    color: hsl(28, 10%, 53%);
+    font-weight: 400;
+}
+
+.bar-graph{
+    
+    border-radius: 8px;
+    background-color: hsl(10, 79%, 65%);
+    width: 80%;
+    margin-bottom: 10%;
+
+    
+}
+.graphs-area>div:hover .bar-graph{
+    background-color: hsl(10, 79%, 65%);
+    opacity: 60%;
+    
+}
+
+.graphs-area>div:hover legend {
+    display: block;
+}
+
+legend{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    display: none;
+
+}
+.bg-change{
+    background-color: lightblue;
+}
+
+.graphs-area>div:hover .bg-change{
+    background-color: lightblue;
+    opacity: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.last-total{
+    font-size: 2.5rem;
+}
